@@ -7,6 +7,13 @@ public class Autor {
 	private String ime;
 	private String prezime;
 	
+	public Autor() {}
+	
+	public Autor(String ime, String prezime) {
+		this.setIme(ime);
+		this.setPrezime(prezime);
+	}
+	
 	public String getIme() {
 		return ime;
 	}
